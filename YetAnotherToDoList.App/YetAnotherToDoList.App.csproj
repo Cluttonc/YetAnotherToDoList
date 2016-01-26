@@ -77,7 +77,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Dist\Lib\jquery-2.2.0.min.js" />
-    <Content Include="Content\Src\JavaScript\Modules\Notifications.js" />
+    <Content Include="Content\Src\JavaScript\Modules\DataRepository.js" />
+    <Content Include="Content\Src\JavaScript\Modules\DomManager.js" />
+    <Content Include="Content\Src\JavaScript\Modules\HtmlManager.js" />
+    <Content Include="Content\Src\JavaScript\Modules\NotificationManager.js" />
+    <Content Include="Content\Src\JavaScript\Modules\TaskManager.js" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="ToDo.txt" />

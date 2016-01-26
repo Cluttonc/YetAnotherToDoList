@@ -1,18 +1,14 @@
-﻿var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var del = require('del');
-var gutil = require('gulp-util');
-var rename = require('gulp-rename');
-var browserify = require('gulp-browserify');
-var glob = require('glob');
+﻿var gulp = require('gulp'),
+    uglify = require('gulp-uglify'),
+    del = require('del'),
+    gutil = require('gulp-util'),
+    rename = require('gulp-rename'),
+    browserify = require('gulp-browserify'),
+    glob = require('glob');
 
 gulp.task('browserify', ['clean'], function () {
     var modules = glob.sync('./Content/Src/JavaScript/Modules/*.js');
 
-    //ToDo: Hook in logic for debug/productions
-    //Options:
-    //1. Have logic in the scripts "partial"
-    //2. Idenfity here and tailor output
     gulp.src(['Content/Src/JavaScript/Modules/*.js'])
         .pipe(
             browserify({
