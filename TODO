@@ -1,0 +1,21 @@
+Todo: todo :)
+
+Goal: Build a note keep.  Create a note, update it, archive or delete it.   Notes will have a title and a description and you will be able to a reminder to alert you.  
+
+MileStone 1: Create a note and store it.  Return to page and be able to view all notes.
+
+MileStone 2: Update and Delete a note.
+
+MileStone 3: Archive/unarchive a note.
+
+MileStone 4: Add in option to store on disk or in database, config setting.
+
+MileStone 5: Rearrage notes on screen.
+
+MileStone 6: Colour Code notes.
+
+MileStone 7: Categorise Notes
+
+NileStone 8: Reminder system (alarm)
+
+MileStone 9: Wsisyg Editor for notes?
