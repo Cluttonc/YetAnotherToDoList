@@ -19,3 +19,13 @@ MileStone 7: Categorise Notes
 NileStone 8: Reminder system (alarm)
 
 MileStone 9: Wsisyg Editor for notes?
+
+MileStone 10: Login and authentication, might be nice to do an oauth and standard login options.
+
+Technology:  
+
+Was thinking to start with storage would be an offline folder stored in markdown.
+Go for a SPA(single page application).
+Maybe node js for a laugh?
+
+Or we could do two projects in tandam?
